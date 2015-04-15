@@ -16,6 +16,7 @@ class Grade
     }
     return null;
   }
+  
 
   public function delete() {
     $mysqli = new mysqli("classroom.cs.unc.edu", "guok", "CH@ngemenow99Please!guok", "guokdb");
