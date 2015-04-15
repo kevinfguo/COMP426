@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
   if ((count($path_components) >= 3) &&
       ($path_components[1] != "") && ($path_components[2] != "")) {
 
+
     // Interpret <id> as integer
     $student_id = intval($path_components[1]);
     $section_id = intval($path_components[2]);
